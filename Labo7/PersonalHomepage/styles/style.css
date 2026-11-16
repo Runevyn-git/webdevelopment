@@ -1,0 +1,106 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 20px;
+}
+
+header {
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    color: forestgreen;
+    border-bottom: 2px solid forestgreen;
+}
+
+h3 {
+    color: darkorange;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    border: 2px solid gray;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: seagreen;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.vriendentabel {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.vriendentabel th {
+    background-color: seagreen;
+    color: white;
+}
+
+.vriendentabel th,
+.vriendentabel td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.vriendentabel tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+.onbekend {
+    background-color: red;
+    color: white;
+}
+
+td.onbekend {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
