@@ -1,0 +1,72 @@
+body {
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    width: 95%;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(0,127,126);
+    font-size: 150%;
+}
+
+h2 {
+    color: rgb(0,127,126);
+    font-size: 130%;
+}
+
+header {
+    text-align: center;
+}
+
+#content {
+    width: 70%;
+    float: left;
+}
+
+#elixirs {
+    width: 25%;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #a7cece;
+    margin-left: 30px;
+}
+
+#elixirs h1 {
+    color: darkred;
+}
+
+#elixirs h2 {
+    color: darkred;
+}
+
+#elixirs a:hover {
+    background-color: brown;
+}
+
+#guarantee {
+    color: #444444;
+    background-color: #a7cece;
+    margin: 30px;
+    padding: 20px;
+    border: 1px dotted white;
+    font-style: italic;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    font-size: 50%;
+    text-align: center;
+}
