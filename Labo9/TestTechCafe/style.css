@@ -1,0 +1,53 @@
+/* Schrijf hier je CSS. */
+body{
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #334155;
+}
+header{
+    text-align: center;
+    background: #17324d;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    background: #244b6b;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li :hover{
+    background: #387c83;
+    padding: 10px;
+}
+#workshop{
+    width: 500px;
+    padding: 20px;
+    border: solid 1px #cbd5e1;
+    background: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+main p{
+
+}
+.full{
+    color: red;
+}
+.status{
+    color: green;
+}
+.status.full{
+    color: red;
+}
